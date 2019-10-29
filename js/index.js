@@ -13,7 +13,7 @@ navbar.addEventListener('wheel', () => navLinks.forEach(link => {
     link.addEventListener('mouseleave', () => link.style.color = 'grey');
 });
 }));
-navLinks.forEach(link => link.addEventListener('click', e => e.preventDefault));
+navLinks.forEach(link => link.addEventListener('click', e => e.preventDefault()));
 
 body.addEventListener('dblclick', () => {
   body.style.backgroundColor = "#FFEBCD";
